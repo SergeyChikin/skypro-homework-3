@@ -90,7 +90,6 @@ public class Main {
         System.out.println("Если в компании работает  " + companyEmployees + " человека, то всего " + allTime + " часа работы может быть поделено между сотрудниками.");
 
 
-
     }
 
 }
