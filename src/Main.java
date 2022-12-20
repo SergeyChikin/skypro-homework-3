@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
         task1();
         task2();
@@ -19,6 +20,7 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
     }
+
     public static void task2 () {
         System.out.println("Задача 2");
         var dog = 8.0;
@@ -31,6 +33,7 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
     }
+
     public static void task3 () {
         System.out.println("Задача 3");
         var dog = 8.0;
@@ -43,6 +46,7 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
     }
+
     public static void task4 () {
         System.out.println("Задача 4");
         var friend = 19;
@@ -52,6 +56,7 @@ public class Main {
         friend = friend / 7;
         System.out.println(friend);
     }
+
     public static void task5 () {
         System.out.println("Задача 5");
         var frog = 3.5;
@@ -63,6 +68,7 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
     }
+
     public static void task6 () {
         System.out.println("Задача 6");
         var weightFirstFighter = 78.2;
@@ -70,6 +76,7 @@ public class Main {
         var totalWeightFighters = weightFirstFighter + weightSecondFight;
         System.out.println( totalWeightFighters);
     }
+
     public static void task7(){
         System.out.println("Задача 7");
         var weightFirstFighter = 78.2;
@@ -79,6 +86,7 @@ public class Main {
         differenceWeightFighters = weightSecondFight % weightFirstFighter;
         System.out.println(differenceWeightFighters);
     }
+
     public static void task8(){
         System.out.println("Задача 8");
         var allTime = 640;
@@ -90,7 +98,7 @@ public class Main {
         System.out.println("Если в компании работает  " + companyEmployees + " человека, то всего " + allTime + " часа работы может быть поделено между сотрудниками.");
 
 
-
     }
+
 
 }
